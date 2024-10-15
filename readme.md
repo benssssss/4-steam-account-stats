@@ -2,7 +2,7 @@
 # Steam Account Statistics Page
 ### Statistics Page Featuring Data About a Steam Account
 
-[<img src="./readmesrc/gif.gif">](https://benssssss.github.io/steam-account-stats/)
+[<img src="./readmesrc/gif.gif">](https://benssssss.github.io/4-steam-account-stats/)
 [<img src="./readmesrc/foto-mobile.png">](https://github.com/benssssss/steam-account-stats)
 
 ---
