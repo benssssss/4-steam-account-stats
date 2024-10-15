@@ -1,0 +1,119 @@
+body {
+    background-image: url('src/images/w-blur.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0px 10px;
+    font-family: Kumbh Sans;
+}
+
+header, footer, .title-steam-icon, .cartao, body{
+    display: flex;
+}
+
+.title-steam-icon a,
+footer a {
+    text-decoration: none;
+}
+
+.cartao, body, header {
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao {
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 500px;
+    width: 400px;
+    min-width: 350px;
+    border-radius: 25px;
+    border: solid 4px #F6ABCC;
+    position: relative;
+}
+
+.container-da-imagem-do-fundo, header, .decorative-separation-line, footer {
+    width: 100%;
+}
+
+.container-da-imagem-do-fundo {
+    background-image: url('src/images/skyblue.jpg');
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    height: 175px;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+
+header {
+    margin-top: 30px;
+}
+
+header img {
+    border: solid 4px #F6ABCC;
+    height: 250px;
+    border-radius: 150px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.steam-icon {
+    background-image: url('src/images/nick.png');
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.title-steam-icon h1 {
+    color: #A4DEF9;
+    font-size: 28px;
+}
+
+.description h2 {
+    font-weight: 300;
+}
+
+.decorative-separation-line {
+    border: solid 2px #F6ABCC;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin: auto auto;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+footer h2,
+h3 {
+    margin: 0;
+    color: #A4DEF9;
+}
+
+h2, h3 {
+    color: #686868;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer :hover {
+    color: #F6ABCC;
+}
+
+.title-steam-icon a :hover {
+    color: #F6ABCC;
+}
+
+.steam-icon:hover {
+    background-image: url('src/images/steam-hover.png');
+}
+
+* :hover {
+    transition: 0.3s ease-in-out;
+}
