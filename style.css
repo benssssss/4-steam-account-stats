@@ -7,16 +7,16 @@ body {
     font-family: Kumbh Sans;
 }
 
-header, footer, .title-steam-icon, .cartao, body{
+.header, .footer, .title-steam-icon, .cartao, body{
     display: flex;
 }
 
 .title-steam-icon a,
-footer a {
+.footer a {
     text-decoration: none;
 }
 
-.cartao, body, header {
+.cartao, body, .header {
     align-items: center;
     justify-content: center;
 }
@@ -32,7 +32,7 @@ footer a {
     position: relative;
 }
 
-.container-da-imagem-do-fundo, header, .decorative-separation-line, footer {
+.container-da-imagem-do-fundo, .header, .decorative-separation-line, .footer {
     width: 100%;
 }
 
@@ -46,11 +46,11 @@ footer a {
     opacity: 0.5;
 }
 
-header {
+.header {
     margin-top: 30px;
 }
 
-header img {
+.header img {
     border: solid 4px #F6ABCC;
     height: 250px;
     border-radius: 150px;
@@ -80,14 +80,14 @@ header img {
     margin-top: 20px;
 }
 
-footer {
+.footer {
     text-align: center;
     margin: auto auto;
     justify-content: space-evenly;
     gap: 15px;
 }
 
-footer h2,
+.footer h2,
 h3 {
     margin: 0;
     color: #A4DEF9;
