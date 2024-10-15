@@ -16,6 +16,10 @@ body {
     text-decoration: none;
 }
 
+.information {
+    text-align: center;
+}
+
 .cartao, body, .header {
     align-items: center;
     justify-content: center;
@@ -102,7 +106,7 @@ h3 {
     font-weight: 500;
 }
 
-footer :hover {
+.footer :hover {
     color: #F6ABCC;
 }
 
